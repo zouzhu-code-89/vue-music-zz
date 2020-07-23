@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============== flex ================ */
+.zz-flex{
+    display: flex;
+}
+.zz-flex-column{
+    flex-direction: column;
+}
+.zz-flex-between{
+    justify-content: space-between;
+}

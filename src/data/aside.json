@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "nav_class_title": "推荐",
+        "nav_class_list": [
+            { "id": 1, "name": "发现音乐", "imgUrl": "www.baidu.com", "url": "/zz-mic/recommend/find/f1" },
+            { "id": 2, "name": "私人FM", "imgUrl": "www.baidu.com", "url": "/zz-mic/recommend/private/p1" },
+            { "id": 3, "name": "LOOK直播", "imgUrl": "www.baidu.com", "url": "/zz-mic/recommend/look/l1" },
+            { "id": 4, "name": "视频", "imgUrl": "www.baidu.com", "url": "/zz-mic/recommend/video" },
+            { "id": 5, "name": "朋友", "imgUrl": "www.baidu.com", "url": "/zz-mic/recommend/friend" }
+        ]
+    },
+    {
+        "id": 2,
+        "nav_class_title": "我的音乐",
+        "nav_class_list": [
+            { "id": 1, "name": "本地音乐", "imgUrl": "www.baidu.com", "url": "/zz-mic/local/local-dist" },
+            { "id": 2, "name": "下载管理", "imgUrl": "www.baidu.com", "url": "/zz-mic/local/download" }
+        ]
+    },
+    {
+        "id": 3,
+        "nav_class_title": "创建歌单",
+        "nav_class_list": [
+            { "id": 1, "name": "我喜欢的音乐", "imgUrl": "www.baidu.com", "url": "/zz-mic/song/live" }
+        ]
+    }
+]
