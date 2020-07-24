@@ -59,11 +59,11 @@ export default {
     },
     methods: {
         asideClickBgChange: function(){
-            const text = document.getElementsByClassName('.option').addEventListener('click', function(event){
-                const a = event.target.innerHTML;
-                console.log(a);
-            })
-            console.log(text);
+            // const text = document.getElementsByClassName('.option').addEventListener('click', function(event){
+            //     const a = event.target.innerHTML;
+            //     console.log(a);
+            // })
+            // console.log(text);
         }
     }
     

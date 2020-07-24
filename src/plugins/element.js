@@ -5,7 +5,9 @@ import {
     Footer,
     Aside,
     Main,
-    Button
+    Button,
+    Tabs,
+    TabPane
 } from 'element-ui'
 
 
@@ -15,4 +17,6 @@ Vue.use(Footer)
 Vue.use(Aside)
 Vue.use(Main)
 Vue.use(Button)
+Vue.use(Tabs)
+Vue.use(TabPane)
 
