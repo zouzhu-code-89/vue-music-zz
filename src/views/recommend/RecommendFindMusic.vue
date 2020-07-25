@@ -8,7 +8,7 @@
             <router-link to="f5">歌手</router-link>
             <router-link to="f6">最新音乐</router-link>
         </div>
-        <div>
+        <div class="recommend_context">
             <router-view></router-view>
         </div>
     </div>
@@ -41,6 +41,7 @@ export default {
     .nav{
         text-align: center;
         border-bottom: 1px solid #C1C1C1;
+        margin-bottom: 20px;
     }
     .nav a{
         margin-right: 15px;
@@ -55,5 +56,9 @@ export default {
     }
     .nav a:hover{
         color: #C7473D;
+    }
+    .recommend_context{
+        width: 1000px;
+        margin: 0 auto;
     }
 </style>

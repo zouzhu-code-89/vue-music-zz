@@ -18,7 +18,7 @@
                 <AsideBaseVideoComponent></AsideBaseVideoComponent>
             </el-aside>
             <!-- 内容区域 -->
-            <el-main style="background-color:white">
+            <el-main class="context_main" style="background-color:white">
                 <router-view></router-view>
             </el-main>
         </el-container>
@@ -82,5 +82,26 @@ export default {
     }
     .page-footer{
         border-top: 1px solid #d3d3d3;
+    }
+    .context_main{
+        white-space: normal;
+        overflow-y: auto;
+        height: 650px;
+    }
+    /*滚动条样式*/
+    .context_main::-webkit-scrollbar {/*滚动条整体样式*/
+        width: 8px;     /*高宽分别对应横竖滚动条的尺寸*/
+        background-color: white;
+    }
+    .context_main::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+        border-radius: 5px;
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        background: #999999;
+        height: 10px !important;
+    }
+    .context_main::-webkit-scrollbar-track {/*滚动条里面轨道*/
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        border-radius: 0;
+        background: white;
     }
 </style>

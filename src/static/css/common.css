@@ -26,3 +26,16 @@ a{
 .zz-flex-between{
     justify-content: space-between;
 }
+.zz-flex-middle{
+    align-items: center;
+}
+
+
+
+
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
