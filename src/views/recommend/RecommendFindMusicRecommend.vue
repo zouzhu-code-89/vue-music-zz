@@ -63,51 +63,55 @@
                 <h2>推荐歌单</h2>
                 <a href="#">更多></a>
             </div>
+            <div class="mt-20">
+                <BaseSongComponent></BaseSongComponent>
+            </div>
         </div>
         <!-- nav title -->
-        <div class="mt-20">
+        <div class="mt-80">
             <div class="nav2 zz-flex zz-flex-between zz-flex-middle">
                 <h2>独家放送</h2>
                 <a href="#">更多></a>
             </div>
         </div>
         <!-- nav title -->
-        <div class="mt-20">
+        <div class="mt-80">
             <div class="nav2 zz-flex zz-flex-between zz-flex-middle">
                 <h2>最新音乐</h2>
                 <a href="#">更多></a>
             </div>
+
         </div>
         <!-- nav title -->
-        <div class="mt-20">
+        <div class="mt-80">
             <div class="nav2 zz-flex zz-flex-between zz-flex-middle">
                 <h2>推荐MV</h2>
                 <a href="#">更多></a>
             </div>
         </div>
         <!-- nav title -->
-        <div class="mt-20">
+        <div class="mt-80">
             <div class="nav2 zz-flex zz-flex-between zz-flex-middle">
                 <h2>主播电台</h2>
                 <a href="#">更多></a>
             </div>
         </div>
         <!-- nav title -->
-        <div class="mt-20">
+        <div class="mt-80">
             <div class="nav2 zz-flex zz-flex-between zz-flex-middle">
                 <h2>LOOK直播</h2>
                 <a href="#">更多></a>
             </div>
         </div>
         <!-- nav title -->
-        <div class="mt-20">
+        <div class="mt-80">
             <div class="nav2 zz-flex zz-flex-between zz-flex-middle">
                 <h2>LOOK直播</h2>
                 <a href="#">更多></a>
             </div>
         </div>
         <!-- nav title -->
-        <div class="mt-20">
+        <div class="mt-80">
             <div class="nav2 zz-flex zz-flex-between zz-flex-middle">
                 <h2>LOOK直播</h2>
                 <a href="#">更多></a>
@@ -119,6 +123,7 @@
 
 <script>
 import Swiper from '@/static/js/swiper.min.js';
+import BaseSongComponent from '@/components/BaseSongComponent.vue';
 import '@/static/css/swiper.min.css';
 
 
@@ -129,6 +134,10 @@ export default {
 
         }
     },
+    components: {
+        BaseSongComponent
+    }
+    ,
     mounted: function(){
         this.swiperInit();
     },
